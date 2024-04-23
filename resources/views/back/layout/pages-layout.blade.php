@@ -63,84 +63,12 @@
         @stack('stylesheets')
 	</head>
 	<body>
-		<!-- <div class="pre-loader">
-			<div class="pre-loader-box">
-				<div class="loader-logo">
-					<img src="/back/vendors/images/deskapp-logo.svg" alt="" />
-				</div>
-				<div class="loader-progress" id="progress_div">
-					<div class="bar" id="bar1"></div>
-				</div>
-				<div class="percent" id="percent1">0%</div>
-				<div class="loading-text">Loading...</div>
-			</div>
-		</div> -->
+
 
 		<div class="header">
 			<div class="header-left">
 				<div class="menu-icon bi bi-list"></div>
-				<div
-					class="search-toggle-icon bi bi-search"
-					data-toggle="header_search"
-				></div>
-				<div class="header-search">
-					<form>
-						<div class="form-group mb-0">
-							<i class="dw dw-search2 search-icon"></i>
-							<input
-								type="text"
-								class="form-control search-input"
-								placeholder="Search Here"
-							/>
-							<div class="dropdown">
-								<a
-									class="dropdown-toggle no-arrow"
-									href="#"
-									role="button"
-									data-toggle="dropdown"
-								>
-									<i class="ion-arrow-down-c"></i>
-								</a>
-								<div class="dropdown-menu dropdown-menu-right">
-									<div class="form-group row">
-										<label class="col-sm-12 col-md-2 col-form-label"
-											>From</label
-										>
-										<div class="col-sm-12 col-md-10">
-											<input
-												class="form-control form-control-sm form-control-line"
-												type="text"
-											/>
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-12 col-md-2 col-form-label">To</label>
-										<div class="col-sm-12 col-md-10">
-											<input
-												class="form-control form-control-sm form-control-line"
-												type="text"
-											/>
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-12 col-md-2 col-form-label"
-											>Subject</label
-										>
-										<div class="col-sm-12 col-md-10">
-											<input
-												class="form-control form-control-sm form-control-line"
-												type="text"
-											/>
-										</div>
-									</div>
-									<div class="text-right">
-										<button class="btn btn-primary">Search</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
+
 			</div>
 			<div class="header-right">
 				<div class="dashboard-setting user-notification">
@@ -156,81 +84,7 @@
 				</div>
 				<div class="user-notification">
 					<div class="dropdown">
-						<a
-							class="dropdown-toggle no-arrow"
-							href="#"
-							role="button"
-							data-toggle="dropdown"
-						>
-							<i class="icon-copy dw dw-notification"></i>
-							<span class="badge notification-active"></span>
-						</a>
-						<div class="dropdown-menu dropdown-menu-right">
-							<div class="notification-list mx-h-350 customscroll">
-								<ul>
-									<li>
-										<a href="#">
-											<img src="/back/vendors/images/img.jpg" alt="" />
-											<h3>John Doe</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="/back/vendors/images/photo1.jpg" alt="" />
-											<h3>Lea R. Frith</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="/back/vendors/images/photo2.jpg" alt="" />
-											<h3>Erik L. Richards</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="/back/vendors/images/photo3.jpg" alt="" />
-											<h3>John Doe</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="/back/vendors/images/photo4.jpg" alt="" />
-											<h3>Renee I. Hansen</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="/back/vendors/images/img.jpg" alt="" />
-											<h3>Vicki M. Coleman</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+
 					</div>
 				</div>
 
@@ -242,13 +96,13 @@
         <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
             <span class="user-icon">
                 <img src="/back/vendors/images/photo1.jpg" alt="" />
-            </span>
-            <span class="user-name">Ross C. Lopez</span>
+            </sleft-sidepan>
+            <span class="user-name">Admin</span>
         </a>
         <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
-            <a class="dropdown-item" href="profile.html"><i class="dw dw-user1"></i> Profile</a>
-            <a class="dropdown-item" href="profile.html"><i class="dw dw-settings2"></i> Setting</a>
-            <a class="dropdown-item" href="faq.html"><i class="dw dw-help"></i> Help</a>
+            <!-- <a class="dropdown-item" href="profile.html"><i class="dw dw-user1"></i> Profile</a>
+            <a class="dropdown-item" href="profile.html"><i class="dw dw-settings2"></i> Setting</a> -->
+            <!-- <a class="dropdown-item" href="faq.html"><i class="dw dw-help"></i> Help</a> -->
             <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('adminLogoutForm').submit();"><i class="dw dw-logout"></i> Log Out</a>
         </div>
     </div>
@@ -258,14 +112,14 @@
     <div class="dropdown">
         <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
             <span class="user-icon">
-                <img src="/back/vendors/images/photo1.jpg" alt="" />
+                <!-- <img src="/back/vendors/images/photo1.jpg" alt="" /> -->
             </span>
-            <span class="user-name">Ross C. Lopez</span>
+            <span class="user-name">Admin</span>
         </a>
         <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
-            <a class="dropdown-item" href="profile.html"><i class="dw dw-user1"></i> Profile</a>
+            <!-- <a class="dropdown-item" href="profile.html"><i class="dw dw-user1"></i> Profile</a>
             <a class="dropdown-item" href="profile.html"><i class="dw dw-settings2"></i> Setting</a>
-            <a class="dropdown-item" href="faq.html"><i class="dw dw-help"></i> Help</a>
+            <a class="dropdown-item" href="faq.html"><i class="dw dw-help"></i> Help</a> -->
             <a class="dropdown-item" href="login.html"><i class="dw dw-logout"></i> Log Out</a>
         </div>
     </div>
@@ -273,23 +127,15 @@
 @endif
 
 
-				
-
-
-				<div class="github-link">
-					<a href="https://github.com/dropways/deskapp" target="_blank"
-						><img src="/back/vendors/images/github.svg" alt=""
-					/></a>
-				</div>
 			</div>
 		</div>
 
 		<div class="right-sidebar">
 			<div class="sidebar-title">
 				<h3 class="weight-600 font-16 text-blue">
-					Layout Settings
+					Настройки
 					<span class="btn-block font-weight-400 font-12"
-						>User Interface Settings</span
+						></span
 					>
 				</h3>
 				<div class="close-sidebar" data-toggle="right-sidebar-close">
@@ -326,134 +172,17 @@
 						>
 					</div>
 
-					<h4 class="weight-600 font-18 pb-10">Menu Dropdown Icon</h4>
-					<div class="sidebar-radio-group pb-10 mb-10">
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebaricon-1"
-								name="menu-dropdown-icon"
-								class="custom-control-input"
-								value="icon-style-1"
-								checked=""
-							/>
-							<label class="custom-control-label" for="sidebaricon-1"
-								><i class="fa fa-angle-down"></i
-							></label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebaricon-2"
-								name="menu-dropdown-icon"
-								class="custom-control-input"
-								value="icon-style-2"
-							/>
-							<label class="custom-control-label" for="sidebaricon-2"
-								><i class="ion-plus-round"></i
-							></label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebaricon-3"
-								name="menu-dropdown-icon"
-								class="custom-control-input"
-								value="icon-style-3"
-							/>
-							<label class="custom-control-label" for="sidebaricon-3"
-								><i class="fa fa-angle-double-right"></i
-							></label>
-						</div>
-					</div>
-
-					<h4 class="weight-600 font-18 pb-10">Menu List Icon</h4>
-					<div class="sidebar-radio-group pb-30 mb-10">
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebariconlist-1"
-								name="menu-list-icon"
-								class="custom-control-input"
-								value="icon-list-style-1"
-								checked=""
-							/>
-							<label class="custom-control-label" for="sidebariconlist-1"
-								><i class="ion-minus-round"></i
-							></label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebariconlist-2"
-								name="menu-list-icon"
-								class="custom-control-input"
-								value="icon-list-style-2"
-							/>
-							<label class="custom-control-label" for="sidebariconlist-2"
-								><i class="fa fa-circle-o" aria-hidden="true"></i
-							></label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebariconlist-3"
-								name="menu-list-icon"
-								class="custom-control-input"
-								value="icon-list-style-3"
-							/>
-							<label class="custom-control-label" for="sidebariconlist-3"
-								><i class="dw dw-check"></i
-							></label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebariconlist-4"
-								name="menu-list-icon"
-								class="custom-control-input"
-								value="icon-list-style-4"
-								checked=""
-							/>
-							<label class="custom-control-label" for="sidebariconlist-4"
-								><i class="icon-copy dw dw-next-2"></i
-							></label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebariconlist-5"
-								name="menu-list-icon"
-								class="custom-control-input"
-								value="icon-list-style-5"
-							/>
-							<label class="custom-control-label" for="sidebariconlist-5"
-								><i class="dw dw-fast-forward-1"></i
-							></label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input
-								type="radio"
-								id="sidebariconlist-6"
-								name="menu-list-icon"
-								class="custom-control-input"
-								value="icon-list-style-6"
-							/>
-							<label class="custom-control-label" for="sidebariconlist-6"
-								><i class="dw dw-next"></i
-							></label>
-						</div>
-					</div>
+	
 
 					<div class="reset-options pt-30 text-center">
 						<button class="btn btn-danger" id="reset-settings">
-							Reset Settings
+							Застосувати
 						</button>
 					</div>
 				</div>
 			</div>
 		</div>
-
+<!-- логооооо -->
 		<div class="left-side-bar">
 			<div class="brand-logo">
 				<a href="index.html">
@@ -476,15 +205,15 @@
 						<li>
 							<a href="{{ route('admin.home') }}" class="dropdown-toggle no-arrow">
 								<span class="micon bi bi-home"></span
-								><span class="mtext">Home</span>
+								><span class="mtext">Профіль</span>
 							</a>
 						</li>
 						
 						
 						<li>
-							<a href="invoice.html" class="dropdown-toggle no-arrow">
+							<a href="{{ route('admin.login') }}" class="dropdown-toggle no-arrow">
 								<span class="micon bi bi-receipt-cutoff"></span
-								><span class="mtext">Invoice</span>
+								><span class="mtext">Головна</span>
 							</a>
 						</li>
 						<li>
@@ -506,7 +235,7 @@
 							</a>
 						</li>
 						@else
-						<li>
+						<!-- <li>
 							<a href="calendar.html" class="dropdown-toggle no-arrow">
 								<span class="micon bi bi-home"></span
 								><span class="mtext">Home</span>
@@ -544,7 +273,7 @@
 									>Prifile
 									</span>
 							</a>
-						</li>
+						</li> -->
 						@endif
 						
 					</ul>
@@ -565,15 +294,16 @@
 								<nav aria-label="breadcrumb" role="navigation">
 									<ol class="breadcrumb">
 										<li class="breadcrumb-item">
-											<a href="index.html">Home</a>
+											<a href="https://www.pinterest.com/pin/1015139572249795081/sent/?invite_code=d18691373d8e46f38aefd65bf24a6e8c&sender=1096697084167485394&sfo=1">Home</a> 
 										</li>
+<!-- поміняти наповнення  -->
 										<li class="breadcrumb-item active" aria-current="page">
 											blank
 										</li>
 									</ol>
 								</nav>
 							</div>
-							<div class="col-md-6 col-sm-12 text-right">
+							<!-- <div class="col-md-6 col-sm-12 text-right">
 								<div class="dropdown">
 									<a
 										class="btn btn-primary dropdown-toggle"
@@ -589,17 +319,17 @@
 										<a class="dropdown-item" href="#">View Assets</a>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30"></div>
                         @yield('content')
 				</div>
 				<div class="footer-wrap pd-20 mb-20 card-box">
-					купіть прекламу ПЖПЖ
-					<a href="https://github.com/dropways" target="_blank"
+					тут є контент
+					<!-- <a href="" target="_blank"
 						>Ankit Hingarajiya</a
-					>
+					> -->
 				</div>
 			</div>
 		</div>
